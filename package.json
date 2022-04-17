@@ -20,6 +20,9 @@
     "discify": "bin/discify"
   },
   "author": "Lars Willighagen (https://larsgw.github.io/)",
+  "contributors": [
+    "Hugh Kennedy <hughskennedy@gmail.com> (http://hughskennedy.com/)"
+  ],
   "license": "MIT",
   "readmeFilename": "README.md",
   "dependencies": {
