@@ -6,7 +6,7 @@ var pluck = require('plucker')
 var uniq = require('uniq')
 
 var commondir = require('commondir')
-var fileTree = require('file-tree')
+var fileTree = require('@citation-js/hughsk-file-tree')
 var path = require('path')
 var fs = require('fs')
 var bl = require('bl')
