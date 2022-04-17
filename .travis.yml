@@ -1,4 +1,0 @@
-node_js:
-- lts/*
-language: node_js
-script: "npm run test"
