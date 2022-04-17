@@ -1,7 +1,7 @@
 {
-  "name": "disc",
+  "name": "@citation-js/browserify-disc",
   "version": "1.3.3",
-  "description": "A tool for analyzing the module tree of a browserify bundle or node project",
+  "description": "Updated fork of hughsk/disc: A tool for analyzing the module tree of a browserify bundle or node project",
   "main": "index.js",
   "scripts": {
     "prepublish": "mkdir -p build && npm run browserify && npm run rework && npm run bundle-demo",
@@ -14,12 +14,12 @@
   },
   "repository": {
     "type": "git",
-    "url": "git://github.com/hughsk/disc.git"
+    "url": "git://github.com//citation-js/browserify-disc.git"
   },
   "bin": {
     "discify": "bin/discify"
   },
-  "author": "Hugh Kennedy <hughskennedy@gmail.com> (http://hughskennedy.com/)",
+  "author": "Lars Willighagen (https://larsgw.github.io/)",
   "license": "MIT",
   "readmeFilename": "README.md",
   "dependencies": {

@@ -1,11 +1,11 @@
-# disc ![gittip: hughsk](http://img.shields.io/gittip/hughsk.svg) ![npm](http://img.shields.io/npm/dm/disc.svg)  ![stable](http://img.shields.io/badge/stability-stable-green.svg) #
+# Updated fork of [hughsk/disc]() ![npm](http://img.shields.io/npm/dm/@citation-js/browserify-disc.svg) ![stable](http://img.shields.io/badge/stability-stable-green.svg)
 
 Disc is a tool for analyzing the module tree of
 [browserify](http://browserify.org) project bundles. It's especially handy
 for catching large and/or duplicate modules which might be either bloating up
 your bundle or slowing down the build process.
 
-The demo included on disc's [github page](http://hughsk.github.io/disc)
+The demo included on disc's [github page](http://citation-js.github.io/browserify-disc)
 is the end result of running the tool on browserify's own code base.
 
 ## Installation ##
@@ -16,7 +16,13 @@ make sure you have [node](http://nodejs.org/) installed on your machine first.
 Installing should then be as easy as:
 
 ``` bash
-sudo npm install -g disc
+sudo npm install -g @citation-js/browserify-disc
+```
+
+Or run it with [npm exec](https://docs.npmjs.com/cli/v7/commands/npm-exec/) (for options, see below):
+
+```bash
+npx @citation-js/browserify-disc [bundle(s)...] {options}
 ```
 
 ## Command-Line Interface ##
