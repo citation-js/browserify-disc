@@ -12,9 +12,10 @@
     "rework": "node lib/bundle-css > build/style.css",
     "test": "node test | tap-mocha-reporter spec"
   },
+  "homepage": "https://github.com/citation-js/browserify-disc#readme",
   "repository": {
     "type": "git",
-    "url": "git://github.com//citation-js/browserify-disc.git"
+    "url": "git://github.com/citation-js/browserify-disc.git"
   },
   "bin": {
     "discify": "bin/discify"
